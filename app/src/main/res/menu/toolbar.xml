@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/ic_backup"
+        android:title="Backup"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+    <!--
+    android:icon用于指定按钮的图标
+    android:title用于指定按钮的文字
+    app:showAsAction来指定按钮的显示位置
+    always-永远显示在Toolbar中
+    ifRoom-若屏幕足够则显示，否则显示在菜单中
+    nerver-永远显示在菜单中
+
+    -->
+</menu>
